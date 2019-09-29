@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('Bienvenido');
-});
+Route::get('/', 'inicioController@index');
